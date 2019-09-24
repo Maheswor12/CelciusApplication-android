@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <Button
+      android:id="@+id/btnsum"
+      android:text="Sum"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/btnsub"
+      android:text="Sub"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/btncelcius"
+      android:text="Celcius to farenheit"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/farenheit"
+      android:text="Farenheit to celcius"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/plaindrome"
+      android:text="Plaindrome Number"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/plaidrome_string"
+      android:text="Plaindrom String"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/btnreverse"
+      android:text="Reverse Number"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+  <Button
+      android:id="@+id/btneven"
+      android:text="Sum of even"
+      android:layout_margin="20dp"
+      android:background="@color/colorPrimary"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+</LinearLayout>

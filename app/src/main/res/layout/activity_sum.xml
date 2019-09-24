@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sum">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3346FF"
+        android:text="Sum of two number"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/firstnumber"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First number" />
+    <EditText
+        android:id="@+id/secondnumber"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second number" />
+    <Button
+        android:id="@+id/btnaddition"
+        android:padding="5dp"
+        android:text="Addition"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    <TextView-->
+<!--        android:id="@+id/ans_data"-->
+<!--        android:text="Sum of two number is:"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+</LinearLayout>
